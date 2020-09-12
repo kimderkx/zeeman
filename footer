@@ -1,0 +1,65 @@
+
+<table bgcolor="#ededed" role="presentation" align="center" style="width: 640px; margin: 0 auto" class="w100pc">
+  <tr>
+    <td>
+      <table role="presentation" style="width: 100%">
+        <tr>
+          <td style="padding: 30px 30px 10px">
+            <table role="presentation" style="width: 100%">
+              <tr>
+                <th style="width: 190px" class="w100pc block">
+                  <table role="presentation" style="width: 100%">
+                    <tr>
+                      <td style="margin: 0 10px 10px 0; font: 14px/2 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 28px; color: #000; text-align: center"> <a href="https://www.zeeman.com/nl/store" style="color: #000;"> Winkels </a> </td>
+                    </tr>
+                  </table>
+                </th>
+                <th style="width: 190px" class="w100pc block">
+                  <table role="presentation" style="width: 100%">
+                    <tr>
+                      <td style="margin: 0 10px 10px 0; font: 14px/2 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 28px; color: #000; text-align: center"> <a href="https://www.zeeman.com/nl/customer/account/login/" style="color: #000;">Mijn Zeeman</a> </td>
+                    </tr>
+                  </table>
+                </th>
+                <th style="width: 190px" class="w100pc block">
+                  <table role="presentation" style="width: 100%">
+                    <tr>
+                      <td style="margin: 0 10px 10px 0; font: 14px/2 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 28px; color: #000; text-align: center"> <a href="{{unsubscribe}}" title="Afmelden" target="_blank" style="color: #000">Afmelden</a> </td>
+                    </tr>
+                  </table>
+                </th>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table role="presentation" align="center" style="width: 100%; margin: 0 auto" class="w100pc">
+        <tr>
+          <td style="padding: 10px 30px" class="pr10 pl20">
+            <table align="center" role="presentation" style="width:400px; margin: 0 auto" class="w100pc">
+              <tr>
+                <td style="padding: 0 20px" class="pr10 pl10"> <a href="https://www.instagram.com/zeeman_textielsupers/" alt=" - Instagram"> <img src="https://cdn.myclang.com/public/zeeman/071d47effe7ca986909a1abb28ae51e8/ig-100_2.png" alt="IG" width="40" style="width: 40px; text-align: center" class="height-auto"> </a> </td>
+                <td style="padding: 0 20px;" class="pr10 pl10"> <a href="https://www.facebook.com/zeemantextielsupers" alt=" - Facebook"> <img src="https://cdn.myclang.com/public/zeeman/071d47effe7ca986909a1abb28ae51e8/fb-100_2.png" alt="FB" width="40" style="width: 40px;text-align: center" class="height-auto"> </a> </td>
+                <td style="padding: 0 20px;" class="pr10 pl10"> <a href="https://nl.pinterest.com/zeemantextiel/" alt=" - Pinterest"> <img src="https://cdn.myclang.com/public/zeeman/071d47effe7ca986909a1abb28ae51e8/pi-100_2.png" alt="PI" width="40" style="width: 40px;text-align: center" class="height-auto"> </a> </td>
+                <td style="padding: 0 20px;" class="pr10 pl10"> <a href="https://www.youtube.com/zeeman" alt=" - Youtube"> <img src="https://cdn.myclang.com/public/zeeman/071d47effe7ca986909a1abb28ae51e8/yt-100_2.png" alt="YT" width="40" style="width: 40px;text-align: center" class="height-auto"> </a> </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table role="presentation" style="width: 100%; margin: 0 auto;" class="w100pc">
+        <tr>
+          <td style="padding: 10px 30px 30px">
+            <table align="center" role="presentation" style="width: 450px; margin: 0 auto;" class="w100pc">
+              <tr>
+                <td> 
+                  <p style="margin: 0px; font: 11px/1.25 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif;mso-line-height-alt: 20px; color: #000">*I just walked in, to see what condition my condition was in.</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
