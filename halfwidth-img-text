@@ -1,0 +1,86 @@
+<table role="presentation" align="center" style="width: 640px; margin: 0 auto" class="w100pc">
+  <tr>
+    <th style="width: 320px" class="w100pc block">
+      <table role="presentation" style="width: 100%">
+        <tr>
+          <td style="padding: 30px 10px 30px 30px;" class="pr30">
+            <table role="presentation" style="width: 100%">
+              <tr>
+                <td style="text-align: center"><a href="#" alt=" - Image"><img src="http://lorempixel.com/200/200/animals/" alt="" width="280" style="width: 280px; min-width: 100%; max-width: 100%" class="w100pc height-auto"></a></td>
+              </tr>
+              <tr>
+                <td style="padding: 20px 0 0">
+                  <table role="presentation" style="width: 100%">
+                    <tr>
+                      <td>
+                        <table role="presentation" style="width: 100%">
+                          <tr>
+                            <td>
+                              <h2 style="margin: 0; font: 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000"> <a href="#" alt="- Title" style="color: #000; text-decoration: none"><strong>Title left</strong></a> </h2>
+                              <p style="margin: 0; font: 14px/1.25 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000">Normcore chartreuse truffaut marfa put a bird on it. </p>
+                              <p style="text-align: right; margin: 0; font: 50px/0.7 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 36px; color: #000"><strong>2<sup style="font-size: 30px; line-height: 0.75; mso-line-height-alt: 23px">22</sup></strong></p>
+                            </td>
+                          </tr>
+                        </table>
+                        <table role="presentation" style="border-collapse: separate">
+                          <tr>
+                            <td style="text-align: center; vertical-align: middle; font: 14px/1  'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; background: #00519e"> <a href="#" alt="- Button" style="padding: 9px 21px 10px; mso-padding-alt: 10px; mso-border-alt: 1px solid #fff; display: inline-block; color: #ffffff; text-decoration: none">
+                              <!--[if mso]>&nbsp;&nbsp;<![endif]-->
+                              <strong>Button</strong>
+                              <!--[if mso]>&nbsp;&nbsp;<![endif]-->
+                              </a> </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </th>
+    <th style="width: 320px" class="w100pc block">
+      <table role="presentation" style="width: 100%">
+        <tr>
+          <td style="padding: 30px 30px 30px 10px;" class="pl30">
+            <table role="presentation" style="width: 100%">
+              <tr>
+                <td style="text-align: center"> <a href="#" alt="- Image"><img src="http://lorempixel.com/200/200/animals/2" alt="" width="280" style="width: 280px; min-width: 100%; max-width: 100%" class="w100pc height-auto"></a></td>
+              </tr>
+              <tr>
+                <td style="padding: 20px 0 0">
+                  <table role="presentation" style="width: 100%">
+                    <tr>
+                      <td>
+                        <table role="presentation" style="width: 100%">
+                          <tr>
+                            <td>
+                              <h2 style="margin: 0; font: 16px/1.4  'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000"> <a href="#" alt=" - Heading" style="color: #000; text-decoration: none"><strong>Title right</strong></a> </h2>
+                              <p style="margin: 0; font: 14px/1.25  'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000">Deep v biodiesel photo booth, scenester vegan kale chips.</p>
+                              <p style="text-align: right; margin: 0; font: 50px/0.7  'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 36px; color: #000"><strong>3<sup style="font-size: 30px; line-height: 0.75; mso-line-height-alt: 23px">33</sup></strong></p>
+                            </td>
+                          </tr>
+                        </table>
+                        <table role="presentation" style="border-collapse: separate">
+                          <tr>
+                            <td style="text-align: center; vertical-align: middle; font: 14px/1  'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; background: #00519e"> <a href="#" alt="- Button" style="padding: 9px 21px 10px; mso-padding-alt: 10px; mso-border-alt: 1px solid #fff; display: inline-block; color: #ffffff; text-decoration: none">
+                              <!--[if mso]>&nbsp;&nbsp;<![endif]-->
+                              <strong>Button</strong>
+                              <!--[if mso]>&nbsp;&nbsp;<![endif]-->
+                              </a> </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </th>
+  </tr>
+</table>
