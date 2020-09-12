@@ -1,0 +1,42 @@
+<table role="presentation" align="center" style="width: 640px; margin: 0 auto; background: #ededed" class="w100pc">
+  <tr>
+    <td style="padding: 20px">
+      <table role="presentation" dir="ltr" style="width: 100%">
+        <tr>
+          <th dir="ltr" style="width: 370px; direction: ltr" class="w100pc block">
+            <table role="presentation" style="width: 100%">
+              <tr>
+                <td style="text-align: center"> <a href="#" alt=" - Image"> <img src="http://lorempixel.com/340/260/animals/3" alt="" width="340" style="width: 340px; min-width: 100%; max-width: 100%"> </a> </td>
+              </tr>
+            </table>
+          </th>
+          <th dir="ltr" style="width: 240px; direction: ltr" class="w100pc block">
+            <table role="presentation" style="width: 100%">
+              <tr>
+                <td style="height: 260px; padding: 0 15px 20px 15px; vertical-align: middle" class="yahoo-fix-height height-auto">
+                  <table role="presentation" style="width: 100%">
+                    <tr>
+                      <td>
+                        <h2 style="margin: 0 0 4px; font: 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000"> <a href="#" alt=" - Heading" style="color: #000; text-decoration: none"><strong>Title</strong></a> </h2>
+                        <p style="margin: 0 0 4px; font: 14px/1.25 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000">Sustainable distillery<br>
+                          Neutra dreamcatcher</p>
+                        <p style="margin: 0 0 10px; font: 50px/0.7 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 36px; color: #000"><strong>6<sup style="font-size: 30px; line-height: 0.75; mso-line-height-alt: 30px">77</sup></strong></p>
+                      </td>
+                    </tr>
+                  </table>
+                  <table role="presentation" style="border-collapse: separate">
+                    <tr>
+                      <td style="text-align: center; vertical-align: middle; font: 14px/1 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; border: 1px solid #f95c19; background: #f95c19"> <a href="#" alt=" - Button" style="padding: 10px 21px 11px; mso-padding-alt: 11px; mso-border-alt: 1px solid #f95c19; display: inline-block; color: #fff; text-decoration: none"> 
+                        <!--[if mso]>&nbsp;&nbsp;<![endif]--><strong>Pick me, click me</strong> 
+                        <!--[if mso]>&nbsp;&nbsp;<![endif]--></a> </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </th>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
