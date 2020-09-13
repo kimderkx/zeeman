@@ -1,36 +1,54 @@
+{{strip}}
 <table role="presentation" align="center" style="width: 640px; margin: 0 auto" class="w100pc">
   <tr>
     <td>
       <table role="presentation" style="width: 100%">
+        <!--{if $property['Image 640px']}-->
         <tr>
-          <td> <a href="#" alt=" - Image"> <img src="http://lorempixel.com/640/300/animals/" alt="" width="640" style="width: 640px; min-width: 100%; max-width: 100%" class="w100pc height-auto"> </a> </td>
+          <td> 
+            <!--{if $property['URL']}--><a href="{{property name='URL'}}" alt="{{property name='Statistics'}} - Image"><!--{/if}--> 
+            <img src="{{$property['Image 640px']|resize:'1280'}}" alt="" width="640" style="width: 640px; min-width: 100%; max-width: 100%" class="w100pc height-auto"> 
+            <!--{if $property['URL']}--></a><!--{/if}--> 
+          </td>
         </tr>
+        <!--{/if}--> 
+        <!--{if $property['Heading'] || $property['Text'] || ($property['Button text'] && $property['URL'])}-->
         <tr>
           <td style="padding: 30px; background: #fff">
             <table role="presentation" style="width: 100%">
               <tr>
-                <td>
+                <td> 
+                  <!--{if $property['Heading'] || $property['Text']}-->
                   <table role="presentation" style="width: 100%">
                     <tr>
-                      <td>
-                        <h2 style="margin: 0 0 20px; font: 30px/1 Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 30px; color: #2d2d2d"> <a href="#" alt=" - Heading" style="color: #2d2d2d; text-decoration: none"><strong>Heading</strong></a> </h2>
-                        <p style="margin: 0 0 20px; font: 16px/1.25 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 20px; color: #000">Iceland celiac irony raw denim ennui. Irony single-origin coffee celiac, leggings skateboard jianbing deep v williamsburg pug tote bag pickled sartorial pok pok shabby chic.</p>
+                      <td> 
+                        <!--{if $property['Heading']}-->
+                        <h2 style="margin: 0 0 20px; font: 30px/1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 30px; color: #2d2d2d"> <a href="{{property name='URL'}}" alt="{{property name='Statistics'}} - Heading" style="color: #2d2d2d; text-decoration: none"><strong> {{$property['Heading']}} </strong></a> </h2>
+                        <!--{/if}--> 
+                        <!--{if $property['Text']}-->
+                        <p style="margin: 0 0 20px; font: 16px/1.25 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 20px; color: #000"> {{property name='Text'}} </p>
+                        <!--{/if}--> 
                       </td>
                     </tr>
                   </table>
+                  <!--{/if}--> 
+                  <!--{if $property['Button text'] && $property['URL']}-->
                   <table role="presentation" style="border-collapse: separate">
                     <tr>
-                      <td style="text-align: center; vertical-align: middle; font: 14px/1 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; border: 1px solid #00519e; background: #00519e"> <a href="#" alt=" - Button" style="padding: 10px 21px 11px; mso-padding-alt: 11px; mso-border-alt: 1px solid #00519e; display: inline-block; color: #fff; text-decoration: none"> 
+                      <td style="text-align: center; vertical-align: middle; font: 14px/1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; border: 1px solid #00519e; background: #00519e"> <a href="{{property name='URL'}}" alt="{{property name='Statistics'}} - Button" style="padding: 10px 21px 11px; mso-padding-alt: 11px; mso-border-alt: 1px solid #00519e; display: inline-block; color: #fff; text-decoration: none"> 
                         <!--[if mso]>&nbsp;&nbsp;<![endif]--><strong>{{$property['Button text']}}</strong> 
                         <!--[if mso]>&nbsp;&nbsp;<![endif]--></a> </td>
                     </tr>
                   </table>
+                  <!--{/if}--> 
                 </td>
               </tr>
             </table>
           </td>
         </tr>
+        <!--{/if}-->
       </table>
     </td>
   </tr>
 </table>
+{{/strip}} 
