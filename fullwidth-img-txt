@@ -23,10 +23,10 @@
                     <tr>
                       <td> 
                         <!--{if $property['Heading']}-->
-                        <h2 style="margin: 0 0 20px; font: 30px/1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 30px; color: #2d2d2d"> <a href="{{property name='URL'}}" alt="{{property name='Statistics'}} - Heading" style="color: #2d2d2d; text-decoration: none"><strong> {{$property['Heading']}} </strong></a> </h2>
+                        <h2 style="margin: 0 0 20px; font: 30px/1 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 30px; color: #2d2d2d"> <a href="{{property name='URL'}}" alt="{{property name='Statistics'}} - Heading" style="color: #2d2d2d; text-decoration: none"><strong> {{$property['Heading']}} </strong></a> </h2>
                         <!--{/if}--> 
                         <!--{if $property['Text']}-->
-                        <p style="margin: 0 0 20px; font: 16px/1.25 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 20px; color: #000"> {{property name='Text'}} </p>
+                        <p style="margin: 0 0 20px; font: 16px/1.25 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 20px; color: #000"> {{property name='Text'}} </p>
                         <!--{/if}--> 
                       </td>
                     </tr>
@@ -35,7 +35,7 @@
                   <!--{if $property['Button text'] && $property['URL']}-->
                   <table role="presentation" style="border-collapse: separate">
                     <tr>
-                      <td style="text-align: center; vertical-align: middle; font: 14px/1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; border: 1px solid #00519e; background: #00519e"> <a href="{{property name='URL'}}" alt="{{property name='Statistics'}} - Button" style="padding: 10px 21px 11px; mso-padding-alt: 11px; mso-border-alt: 1px solid #00519e; display: inline-block; color: #fff; text-decoration: none"> 
+                      <td style="text-align: center; vertical-align: middle; font: 14px/1 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; border: 1px solid #00519e; background: #00519e"> <a href="{{property name='URL'}}" alt="{{property name='Statistics'}} - Button" style="padding: 10px 21px 11px; mso-padding-alt: 11px; mso-border-alt: 1px solid #00519e; display: inline-block; color: #fff; text-decoration: none"> 
                         <!--[if mso]>&nbsp;&nbsp;<![endif]--><strong>{{$property['Button text']}}</strong> 
                         <!--[if mso]>&nbsp;&nbsp;<![endif]--></a> </td>
                     </tr>
