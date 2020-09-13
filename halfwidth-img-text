@@ -1,3 +1,4 @@
+{{strip}}
 <table role="presentation" align="center" style="width: 640px; margin: 0 auto" class="w100pc">
   <tr>
     <th style="width: 320px" class="w100pc block">
@@ -5,37 +6,49 @@
         <tr>
           <td style="padding: 30px 10px 30px 30px;" class="pr30">
             <table role="presentation" style="width: 100%">
+              <!--{if $property['Image 280px left']}-->
               <tr>
-                <td style="text-align: center"><a href="#" alt=" - Image"><img src="http://lorempixel.com/200/200/animals/" alt="" width="280" style="width: 280px; min-width: 100%; max-width: 100%" class="w100pc height-auto"></a></td>
+                <td style="text-align: center"> <!--{if $property['URL left']}--><a href="{{property name='URL left'}}" alt="{{property name='Statistics'}} - Image"><!--{/if}--> <img src="{{$property['Image 280px left']|resize:'560'}}" alt="" width="280" style="width: 280px; min-width: 100%; max-width: 100%" class="w100pc height-auto"> <!--{if $property['URL left']}--></a><!--{/if}--> </td>
               </tr>
+              <!--{/if}--> 
+              <!--{if $property['Title left'] || $property['Text left'] || $property['Euro left'] || $property['Cent left'] || ($property['Button text left'] && $property['URL left'])}-->
               <tr>
                 <td style="padding: 20px 0 0">
                   <table role="presentation" style="width: 100%">
                     <tr>
-                      <td>
+                      <td> 
+                        <!--{if $property['Title left'] || $property['Text left'] || $property['Euro left'] || $property['Cent left']}-->
                         <table role="presentation" style="width: 100%">
                           <tr>
-                            <td>
-                              <h2 style="margin: 0; font: 16px/1.4 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000"> <a href="#" alt="- Title" style="color: #000; text-decoration: none"><strong>Title left</strong></a> </h2>
-                              <p style="margin: 0; font: 14px/1.25 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000">Normcore chartreuse truffaut marfa put a bird on it. </p>
-                              <p style="text-align: right; margin: 0; font: 50px/0.7 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 36px; color: #000"><strong>2<sup style="font-size: 30px; line-height: 0.75; mso-line-height-alt: 23px">22</sup></strong></p>
+                            <td> 
+                              <!--{if $property['Title left']}-->
+                              <h2 style="margin: 0; font: 16px/1.1 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #2d2d2d"> <a href="{{property name='URL left'}}" alt="{{property name='Statistics'}} - Title" style="color: #2d2d2d; text-decoration: none"><strong>{{$property['Title left']}}</strong></a> </h2>
+                              <!--{/if}--> 
+                              <!--{if $property['Text left']}-->
+                              <p style="margin: 0; font: 14px/1.25 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000">{{property name='Text left'}}</p>
+                              <!--{/if}--> 
+                              <!--{if $property['Euro left'] || $property['Cent left']}-->
+                              <p style="text-align: right; margin: 0; font: 50px/0.7 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 36px; color: #000"><strong>{{property name='Euro left'}}<sup style="font-size: 30px; line-height: 0.75; mso-line-height-alt: 23px">{{property name='Cent left'}}</sup></strong></p>
+                              <!--{/if}--> 
                             </td>
                           </tr>
                         </table>
+                        <!--{/if}--> 
+                        <!--{if $property['Button text left'] && $property['URL left']}-->
                         <table role="presentation" style="border-collapse: separate">
                           <tr>
-                            <td style="text-align: center; vertical-align: middle; font: 14px/1  'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; background: #00519e"> <a href="#" alt="- Button" style="padding: 9px 21px 10px; mso-padding-alt: 10px; mso-border-alt: 1px solid #fff; display: inline-block; color: #ffffff; text-decoration: none">
-                              <!--[if mso]>&nbsp;&nbsp;<![endif]-->
-                              <strong>Button</strong>
-                              <!--[if mso]>&nbsp;&nbsp;<![endif]-->
-                              </a> </td>
+                            <td style="text-align: center; vertical-align: middle; font: 14px/1 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; background: #00519e"> <a href="{{property name='URL left'}}" alt="{{property name='Statistics'}} - Button" style="padding: 9px 21px 10px; mso-padding-alt: 10px; mso-border-alt: 1px solid #fff; display: inline-block; color: #ffffff; text-decoration: none"> 
+                              <!--[if mso]>&nbsp;&nbsp;<![endif]--><strong>{{$property['Button text left']}}</strong> 
+                              <!--[if mso]>&nbsp;&nbsp;<![endif]--></a> </td>
                           </tr>
                         </table>
+                        <!--{/if}--> 
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
+              <!--{/if}-->
             </table>
           </td>
         </tr>
@@ -46,37 +59,49 @@
         <tr>
           <td style="padding: 30px 30px 30px 10px;" class="pl30">
             <table role="presentation" style="width: 100%">
+              <!--{if $property['Image 280px right']}-->
               <tr>
-                <td style="text-align: center"> <a href="#" alt="- Image"><img src="http://lorempixel.com/200/200/animals/2" alt="" width="280" style="width: 280px; min-width: 100%; max-width: 100%" class="w100pc height-auto"></a></td>
+                <td style="text-align: center"> <!--{if $property['URL right']}--><a href="{{property name='URL right'}}" alt="{{property name='Statistics'}} - Image"><!--{/if}--> <img src="{{$property['Image 280px right']|resize:'560'}}" alt="" width="280" style="width: 280px; min-width: 100%; max-width: 100%" class="w100pc height-auto"> <!--{if $property['URL right']}--></a><!--{/if}--> </td>
               </tr>
+              <!--{/if}--> 
+              <!--{if $property['Title right'] || $property['Text right'] || $property['Euro right'] || $property['Cent right'] || ($property['Button text right'] && $property['URL right'])}-->
               <tr>
                 <td style="padding: 20px 0 0">
                   <table role="presentation" style="width: 100%">
                     <tr>
-                      <td>
+                      <td> 
+                        <!--{if $property['Title right'] || $property['Text right'] || $property['Euro right'] || $property['Cent right']}-->
                         <table role="presentation" style="width: 100%">
                           <tr>
-                            <td>
-                              <h2 style="margin: 0; font: 16px/1.4  'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000"> <a href="#" alt=" - Heading" style="color: #000; text-decoration: none"><strong>Title right</strong></a> </h2>
-                              <p style="margin: 0; font: 14px/1.25  'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000">Deep v biodiesel photo booth, scenester vegan kale chips.</p>
-                              <p style="text-align: right; margin: 0; font: 50px/0.7  'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 36px; color: #000"><strong>3<sup style="font-size: 30px; line-height: 0.75; mso-line-height-alt: 23px">33</sup></strong></p>
+                            <td> 
+                              <!--{if $property['Title right']}-->
+                              <h2 style="margin: 0; font: 16px/1.1 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #2d2d2d"> <a href="#tbd" alt="{{property name='Statistics'}} - Heading" style="color: #2d2d2d; text-decoration: none"><strong>{{$property['Title right']}}</strong></a> </h2>
+                              <!--{/if}--> 
+                              <!--{if $property['Text right']}-->
+                              <p style="margin: 0; font: 14px/1.25 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000">{{property name='Text right'}}</p>
+                              <!--{/if}--> 
+                              <!--{if $property['Euro right'] || $property['Cent right']}-->
+                              <p style="text-align: right; margin: 0; font: 50px/0.7 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 36px; color: #000"><strong>{{property name='Euro right'}}<sup style="font-size: 30px; line-height: 0.75; mso-line-height-alt: 23px">{{property name='Cent right'}}</sup></strong></p>
+                              <!--{/if}--> 
                             </td>
                           </tr>
                         </table>
+                        <!--{/if}--> 
+                        <!--{if $property['Button text right'] && $property['URL right']}-->
                         <table role="presentation" style="border-collapse: separate">
                           <tr>
-                            <td style="text-align: center; vertical-align: middle; font: 14px/1  'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; background: #00519e"> <a href="#" alt="- Button" style="padding: 9px 21px 10px; mso-padding-alt: 10px; mso-border-alt: 1px solid #fff; display: inline-block; color: #ffffff; text-decoration: none">
-                              <!--[if mso]>&nbsp;&nbsp;<![endif]-->
-                              <strong>Button</strong>
-                              <!--[if mso]>&nbsp;&nbsp;<![endif]-->
-                              </a> </td>
+                            <td style="text-align: center; vertical-align: middle; font: 14px/1 'Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; background: #00519e"> <a href="{{property name='URL left'}}" alt="{{property name='Statistics'}} - Button" style="padding: 9px 21px 10px; mso-padding-alt: 10px; mso-border-alt: 1px solid #fff; display: inline-block; color: #ffffff; text-decoration: none"> 
+                              <!--[if mso]>&nbsp;&nbsp;<![endif]--><strong>{{$property['Button text right']}}</strong> 
+                              <!--[if mso]>&nbsp;&nbsp;<![endif]--></a> </td>
                           </tr>
                         </table>
+                        <!--{/if}--> 
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
+              <!--{/if}-->
             </table>
           </td>
         </tr>
@@ -84,3 +109,4 @@
     </th>
   </tr>
 </table>
+{{/strip}} 
