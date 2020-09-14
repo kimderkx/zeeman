@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="nl" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+<meta name="x-apple-disable-message-reformatting">
+<link rel="shortcut icon" href="https://d1obviyp2u5kk.cloudfront.net/static/version1593501332/frontend/Zeeman/default/nl_NL/Magento_Theme/favicon.ico" type="image/x-icon">
+<base target="_blank">
+<title>Zeeman</title>
+<style>
+div[data-type=object-instance-collection] {
+	width: 100% !important
+}
+</style>
+<!-- Reset Styles -->
+<style>
+* {
+	box-sizing: border-box
+}
+body, .ev-body, .ev-wrapper {
+	width: 100%;
+	height: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	background: #fff
+}
+body, div, td, th, ul, ol, li, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+	font-weight: normal;
+	font-style: normal;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none
+}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: 0
+}
+td, th {
+	text-align: left;
+	vertical-align: top
+}
+img {
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+	height: auto;
+	line-height: 100%;
+	border: 0
+}
+ul, ol, li {
+	margin: 5px 0 5px 5px
+}
+ul, ol {
+	padding: 0 0 0 10px
+}
+a, a:link, a:visited, a:hover {
+	color: #1979c3;
+	text-decoration: underline
+}
+a.phonenumber {
+	pointer-events: none;
+	cursor: default
+}
+#outlook a {
+	padding: 0
+}
+</style>
+<!-- Responsive Styles -->
+<style>
+@media only screen and (max-width: 640px) {
+.w25pc {
+	min-width: 25% !important;
+	width: 25% !important;
+	max-width: 25% !important
+}
+.w33pc {
+	min-width: 33.3333% !important;
+	width: 33.3333% !important;
+	max-width: 33.3333% !important
+}
+.w50pc {
+	min-width: 50% !important;
+	width: 50% !important;
+	max-width: 50% !important
+}
+.w100pc {
+	min-width: 100% !important;
+	width: 100% !important;
+	max-width: 100% !important
+}
+.height-auto {
+	height: auto !important
+}
+.hide-on-mobile {
+	display: none !important
+}
+.show-on-mobile {
+	display: block !important;
+	width: auto !important;
+	max-height: inherit !important;
+	overflow: visible !important;
+	float: none !important
+}
+a.phonenumber {
+	pointer-events: auto !important;
+	cursor: auto !important
+}
+.inline {
+	display: inline !important
+}
+.block {
+	display: block !important
+}
+.inline-block {
+	display: inline-block !important
+}
+.align-left {
+	text-align: left !important
+}
+.align-center {
+	text-align: center !important
+}
+.align-right {
+	text-align: right !important
+}
+.valign-top {
+	vertical-align: top !important
+}
+.valign-middle {
+	vertical-align: middle !important
+}
+.valign-bottom {
+	vertical-align: bottom !important
+}
+.left {
+	float: left !important
+}
+.center {
+	margin: 0 auto !important
+}
+.right {
+	float: right !important
+}
+.p0 {
+	padding: 0 !important
+}
+.pt0 {
+	padding-top: 0 !important
+}
+.pr0 {
+	padding-right: 0 !important
+}
+.pb0 {
+	padding-bottom: 0 !important
+}
+.pl0 {
+	padding-left: 0 !important
+}
+.pr30 {
+	padding-right: 30px !important
+}
+.pl30 {
+	padding-left: 30px !important
+}
+.pb30 {
+	padding-bottom: 30px !important;
+}
+.m0 {
+	margin: 0 !important
+}
+.mt0 {
+	margin-top: 0 !important
+}
+.mr0 {
+	margin-right: 0 !important
+}
+.mb0 {
+	margin-bottom: 0 !important
+}
+.ml0 {
+	margin-left: 0 !important
+}
+}
+</style>
+<!-- Specific iOS Date/Phonenumber Reset Styles -->
+<style>
+a[x-apple-data-detectors] {
+	color: inherit !important;
+	text-decoration: none !important;
+	font-size: inherit !important;
+	font-family: inherit !important;
+	font-weight: inherit !important;
+	line-height: inherit !important;
+}
+</style>
+<!-- Webkit/Blink/Gecko check and check on input status and necessary when using interactive objects -->
+<style>
+@media only screen and (-webkit-min-device-pixel-ratio:0), (min--moz-device-pixel-ratio:0) {
+#ev-interactive-check:checked~.ev-fallback {
+	display: none
+}
+#ev-interactive-check:checked~div .ev-interactive {
+	display: block !important;
+	max-height: none !important
+}
+}
+</style>
+<!-- Specific Gmail Styles, including Date/Phonenumber/Links Reset -->
+<style>
+u+.ev-body a {
+	color: inherit;
+	text-decoration: inherit
+}
+
+@media only screen and (max-width: 639px) {
+u+.ev-body, div>u+.ev-body {
+	width: 100vw !important;
+	min-width: 100vw !important;
+	margin: 0 !important;
+	padding: 0 !important
+}
+div>u+.ev-body {
+	width: inherit !important;
+	min-width: inherit !important;
+}
+}/* Necessary when using interactive objects */
+
+@media screen and (max-width:9999px) {
+u+.ev-body .ev-fallback {
+	display: block !important;
+	max-height: none
+}
+u+.ev-body .ev-interactive {
+	display: none !important
+}
+}
+</style>
+<!-- Specific Yahoo!Mail Targeting -->
+<style>
+.& .ev-wrapper, .& .yahoo-fix-height {
+display: grid
+}/* Necessary when using interactive objects */
+.yahoo-fix {
+}
+.& .ev-fallback {
+display: block !important;
+max-height: none
+}
+.& .ev-interactive {
+display: none !important
+}
+</style>
+<!-- Specific Samsung Mail App Targeting -->
+<style>
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+#MessageViewBody, #MessageWebViewDiv {
+	margin: 0 !important;
+	zoom: 1 !important
+}/* Necessary when using interactive objects */
+#MessageViewBody .ev-fallback {
+	display: block !important
+}
+#MessageViewBody .ev-interactive {
+	display: none !important
+}
+#MessageViewBody .ev-samsung {
+	display: none !important
+}
+}
+</style>
+<!-- Specific Outlook App Targeting -->
+<style>
+body[data-outlook-cycle] {
+	min-width: 100vw !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+body[data-outlook-cycle] .outlook-overflow-scaling, body[data-outlook-cycle] .ev-wrapper {
+	width: 100vw !important;
+	min-width: 100vw !important;
+	height: auto !important;
+	display: block !important;
+	transform: scale(1) !important
+}/* Necessary when using interactive objects */
+body[data-outlook-cycle] .ev-fallback {
+	display: block !important
+}
+body[data-outlook-cycle] .ev-interactive {
+	display: none !important
+}
+</style>
+<!--[if mso]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--><!-- Outlook 2007 and above Specific Styles --><!--[if gte mso 12]><style>a,a:link,a:visited,a:hover {text-decoration: none}li {margin: 5px 0 5px 20px !important;text-indent: -1em}sup {font-size: 100% !important}</style><![endif]-->
+</head>
+<body class="ev-body">
+<div style="display: none"></div>
+<div style="display: none"> &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; &#847; </div>
+<div role="article" aria-roledescription="email" aria-label="" lang="nl" class="ev-wrapper">
+  <center>
+    <table role="presentation" align="center" style="width: 640px; margin: 0 auto" class="w100pc">
+      <tr>
+        <td style="padding: 30px; background: #ffdd00; text-align: center">
+          <h1 style="margin: 0"><a href="https://cdn.myclang.com/1/4/1828/1/kCn9OtC4imf-jJhgCQTniFk8b7tT4CbIhv0N9fANuAg" alt="Header - logo"><img src="https://cdn.myclang.com/public/zeeman/f749febd800f4089b442a6ca1a767954/zeeman-logo_4.jpg" alt="Zeeman" width="272" style="font: 35px/1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 35px; color: #f8dc00; text-decoration: none; text-transform: uppercase; font-weight: bold"></a></h1>
+        </td>
+      </tr>
+    </table>
+    <table role="presentation" align="center" style="width: 640px; margin: 0 auto" class="w100pc">
+      <tr>
+        <td>
+          <table role="presentation" style="width: 100%">
+            <tr>
+              <td> <a href="https://cdn.myclang.com/1/4/1828/1/VJlLJ4_mgRZenG4Ya9szrMDi5MbnCy123MsZXKJ0hwA" alt=" - Image"> <img src="https://cdn.myclang.com/public/zeeman/fde9cd1133/44/4b/1280x_444bca92d9103a49ef4cb4d576eaacd9.png" alt="" width="640" style="width: 640px; min-width: 100%; max-width: 100%" class="w100pc height-auto"> </a> </td>
+            </tr>
+            <tr>
+              <td style="padding: 30px 30px 15px 30px; background: #fff">
+                <table role="presentation" style="width: 100%">
+                  <tr>
+                    <td>
+                      <table role="presentation" style="width: 100%">
+                        <tr>
+                          <td>
+                            <h2 style="margin: 0 0 20px; font: 30px/1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 30px; color: #2d2d2d"> <a href="https://cdn.myclang.com/1/4/1828/1/p0s58tDJT8OvR2VBB5t1V8HXSlBha9OYBRBNap0fPXk" alt=" - Heading" style="color: #2d2d2d; text-decoration: none"><strong> Hi Firstname, </strong></a> </h2>
+                            <p style="margin: 0 0 20px; font: 16px/1.25 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 20px; color: #000"> Wolf man bun scenester vexillologist wayfarers, pickled cloud bread. Stumptown tote bag vice biodiesel lo-fi. Tattooed small batch bicycle rights drinking vinegar pinterest, kinfolk twee paleo. </p>
+                          </td>
+                        </tr>
+                      </table>
+                      <table role="presentation" style="border-collapse: separate">
+                        <tr>
+                          <td style="text-align: center; vertical-align: middle; font: 14px/1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; border: 1px solid #00519e; background: #00519e"> <a href="https://cdn.myclang.com/1/4/1828/1/g_YujGZsphwZyd9P3oyaA2qGUSuDRRycf4L9PgaU5H8" alt=" - Button" style="padding: 10px 21px 11px; mso-padding-alt: 11px; mso-border-alt: 1px solid #00519e; display: inline-block; color: #fff; text-decoration: none"> 
+                            <!--[if mso]>&nbsp;&nbsp;<![endif]--><strong>Read about our mission</strong> 
+                            <!--[if mso]>&nbsp;&nbsp;<![endif]--></a> </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table role="presentation" align="center" style="width: 640px; margin: 0 auto" class="w100pc">
+      <tr>
+        <th style="width: 320px" class="w100pc block">
+          <table role="presentation" style="width: 100%">
+            <tr>
+              <td style="padding: 15px 10px 30px 30px;" class="pr30">
+                <table role="presentation" style="width: 100%">
+                  <tr>
+                    <td style="text-align: center"> <a href="https://cdn.myclang.com/1/4/1828/1/O2d7-PkH20nOjbyUoAQkRtLcIlZFBTA0qaGR9lt7NZQ" alt=" - Image"> <img src="https://cdn.myclang.com/public/zeeman/fde9cd1133/3a/2c/560x_3a2cb31cb961386ea9c472d269477a90.png" alt="" width="280" style="width: 280px; min-width: 100%; max-width: 100%" class="w100pc height-auto"> </a> </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 20px 0 0">
+                      <table role="presentation" style="width: 100%">
+                        <tr>
+                          <td>
+                            <table role="presentation" style="width: 100%">
+                              <tr>
+                                <td>
+                                  <h2 style="margin: 0; font: 16px/1.1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #2d2d2d"> <a href="https://cdn.myclang.com/1/4/1828/1/rGnJm0149Bh3gfRlThuElvL2yTELLiL8_b_ti-X0yDU" alt=" - Title" style="color: #2d2d2d; text-decoration: none"><strong>Bathing suit.</strong></a> </h2>
+                                  <p style="margin: 0; font: 14px/1.25 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000">Four loko farm-to-table cray listicle keffiyeh authentic.</p>
+                                  <p style="text-align: right; margin: 0; font: 50px/0.7 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 36px; color: #000"><strong>4<sup style="font-size: 30px; line-height: 0.75; mso-line-height-alt: 23px">99</sup></strong></p>
+                                </td>
+                              </tr>
+                            </table>
+                            <table role="presentation" style="border-collapse: separate">
+                              <tr>
+                                <td style="text-align: center; vertical-align: middle; font: 14px/1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; background: #00519e"> <a href="https://cdn.myclang.com/1/4/1828/1/R2YDfTxavyDajE8rpewUMyFk_6jBmLE3RcktDqauxgY" alt=" - Button" style="padding: 9px 21px 10px; mso-padding-alt: 10px; mso-border-alt: 1px solid #fff; display: inline-block; color: #ffffff; text-decoration: none"><!--[if mso]>&nbsp;&nbsp;<![endif]--><strong>Shop now</strong><!--[if mso]>&nbsp;&nbsp;<![endif]--></a> </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </th>
+        <th style="width: 320px" class="w100pc block">
+          <table role="presentation" style="width: 100%">
+            <tr>
+              <td style="padding: 15px 30px 30px 10px;" class="pl30 pt0">
+                <table role="presentation" style="width: 100%">
+                  <tr>
+                    <td style="text-align: center"> <a href="https://cdn.myclang.com/1/4/1828/1/Gi8PH87zCI5vCavWCCkisddvHC2kcnURwh08jiKz9s0" alt=" - Image"> <img src="https://cdn.myclang.com/public/zeeman/fde9cd1133/fd/ff/560x_fdffb56a1fb49233ecb8909498187ebf.png" alt="" width="280" style="width: 280px; min-width: 100%; max-width: 100%" class="w100pc height-auto"> </a> </td>
+                  </tr>
+                  <tr>
+                    <td style="padding: 20px 0 0">
+                      <table role="presentation" style="width: 100%">
+                        <tr>
+                          <td>
+                            <table role="presentation" style="width: 100%">
+                              <tr>
+                                <td>
+                                  <h2 style="margin: 0; font: 16px/1.1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #2d2d2d"> <a href="#tbd" alt=" - Heading" style="color: #2d2d2d; text-decoration: none"><strong>T-shirt.</strong></a> </h2>
+                                  <p style="margin: 0; font: 14px/1.25 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000">Hammock la croix before they sold out put a bird on it locavore.</p>
+                                  <p style="text-align: right; margin: 0; font: 50px/0.7 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 36px; color: #000"><strong>3<sup style="font-size: 30px; line-height: 0.75; mso-line-height-alt: 23px">99</sup></strong></p>
+                                </td>
+                              </tr>
+                            </table>
+                            <table role="presentation" style="border-collapse: separate">
+                              <tr>
+                                <td style="text-align: center; vertical-align: middle; font: 14px/1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; background: #00519e"> <a href="https://cdn.myclang.com/1/4/1828/1/QDGc1kaVQvNhcBTXq31v8vG06T4A_YccoKWfS1hI6Nk" alt=" - Button" style="padding: 9px 21px 10px; mso-padding-alt: 10px; mso-border-alt: 1px solid #fff; display: inline-block; color: #ffffff; text-decoration: none"><!--[if mso]>&nbsp;&nbsp;<![endif]--><strong>Shop now</strong><!--[if mso]>&nbsp;&nbsp;<![endif]--></a> </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </th>
+      </tr>
+    </table>
+    <table role="presentation" align="center" style="width: 640px; margin: 0 auto; background: #ededed" class="w100pc">
+      <tr>
+        <td style="padding: 20px">
+          <table role="presentation" dir="ltr" style="width: 100%; direction: ltr">
+            <tr>
+              <th dir="ltr" style="width: 370px; direction: ltr" class="w100pc block">
+                <table role="presentation" style="width: 100%">
+                  <tr>
+                    <td style="text-align: center"><a href="https://cdn.myclang.com/1/4/1828/1/gBJr1WxV9e6vCvGj8dz17_YSLTUycjqwUoppMl3MqJs" alt=" - Image"><img src="https://cdn.myclang.com/public/zeeman/fde9cd1133/43/e7/680x_43e7f38ec4c5e5fab83c8e4760a38f66.png" alt="" width="340" style="width: 340px; min-width: 100%; max-width: 100%"></a></td>
+                  </tr>
+                </table>
+              </th>
+              <th dir="ltr" style="width: 240px; direction: ltr" class="w100pc block">
+                <table role="presentation" style="width: 100%">
+                  <tr>
+                    <td style="padding: 40px 15px 20px 15px; vertical-align: middle" class="yahoo-fix-height height-auto">
+                      <table role="presentation" style="width: 100%">
+                        <tr>
+                          <td>
+                            <h2 style="margin: 0 0 4px; font: 16px/1.1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #2d2d2d"> <a href="https://cdn.myclang.com/1/4/1828/1/7A29hkRpoSRI_X7V8dIsLmLxcyyoopVyD5qXy1kocLM" alt=" - Heading" style="color: #2d2d2d; text-decoration: none"><strong>Air.</strong></a> </h2>
+                            <p style="margin: 0 0 4px; font: 14px/1.25 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000">Neutra activated charcoal glossier four loko.</p>
+                            <p style="margin: 0 0 10px; font: 50px/0.7 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 36px; color: #000"><strong>4<sup style="font-size: 30px; line-height: 0.75; mso-line-height-alt: 30px">99</sup></strong></p>
+                          </td>
+                        </tr>
+                      </table>
+                      <table role="presentation" style="border-collapse: separate">
+                        <tr>
+                          <td style="text-align: center; vertical-align: middle; font: 14px/1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 14px; border: 1px solid #f95c19; background: #f95c19"> <a href="https://cdn.myclang.com/1/4/1828/1/FHItmNrDMGZbFXZ__uYkSJt9wo6keTwURf75hPGJ_JE" alt=" - Button" style="padding: 10px 21px 11px; mso-padding-alt: 11px; mso-border-alt: 1px solid #f95c19; display: inline-block; color: #fff; text-decoration: none"><!--[if mso]>&nbsp;&nbsp;<![endif]--><strong>I need Air</strong><!--[if mso]>&nbsp;&nbsp;<![endif]--></a> </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </th>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table role="presentation" align="center" style="width: 640px; margin: 0 auto" class="w100pc">
+      <tr>
+        <td>
+          <table role="presentation" style="width: 100%">
+            <tr>
+              <td style="padding: 30px 30px 15px 30px">
+                <table role="presentation" style="width: 100%">
+                  <tr>
+                    <th style="width: 190px" class="w100pc block">
+                      <table role="presentation" style="width: 100%">
+                        <tr>
+                          <td style="padding: 0 13px 0 0" align="left" class="pr0">
+                            <table role="presentation" style="width: 100%">
+                              <tr>
+                                <td style="padding: 0 0 15px" class="pr0"><img src="https://cdn.myclang.com/public/zeeman/fde9cd1133/85/8d/360x_858d5e810e5266c7cc5a4c2cb756beea.png" style="width: 180px; min-width: 100%; max-width: 100%" width="180" class="w100pc height-auto"> </td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 0 0 15px" class="pb30">
+                                  <h2 style="margin: 0; font: 16px/1.1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000"> <a href="https://cdn.myclang.com/1/4/1828/1/BvVfdsqiKPilWJ9qGHC3oIu4qr5Hhqqcqu3uV3BPFQs" alt=" - Heading" style="color: #000; text-decoration: none"><strong>Shop Home</strong></a> </h2>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </th>
+                    <th style="width: 190px" class="w100pc block">
+                      <table role="presentation" style="width: 100%">
+                        <tr>
+                          <td style="padding: 0 6px 0 7px" align="left" class="pr0 pl0">
+                            <table role="presentation" style="width: 100%">
+                              <tr>
+                                <td style="padding: 0 0 15px" class="pr0 pl0"> <img src="https://cdn.myclang.com/public/zeeman/fde9cd1133/a9/cb/360x_a9cb22baf124682d131dd5153cb0e586.png" style="width: 180px; min-width: 100%; max-width: 100%" width="180" class="w100pc height-auto"> </td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 0 0 15px" class="pb30">
+                                  <h2 style="margin: 0; font: 16px/1.1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000;"> <a href="https://cdn.myclang.com/1/4/1828/1/_tjH-yAX4IsG2ecaUNfJy3FNDCj9SIv8e595QbGsqjM" alt=" - Title" style="color: #000; text-decoration: none"><strong>Shop Bath</strong></a> </h2>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </th>
+                    <th style="width: 190px" class="w100pc block">
+                      <table role="presentation" style="width: 100%">
+                        <tr>
+                          <td style="padding: 0 0 0 14px" align="left" class="pl0">
+                            <table role="presentation" style="width: 100%">
+                              <tr>
+                                <td style="padding: 0 0 15px" class="pl0"> <img src="https://cdn.myclang.com/public/zeeman/fde9cd1133/0e/36/360x_0e36fcd1e8e27f17e6088ba27a64e554.png" style="width: 180px; min-width: 100%; max-width: 100%" width="180" class="w100pc height-auto"> </td>
+                              </tr>
+                              <tr>
+                                <td style="padding: 0 0 15px" class="pb30">
+                                  <h2 style="margin: 0; font: 16px/1.1 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 18px; color: #000"> <a href="https://cdn.myclang.com/1/4/1828/1/v1PwDqnWEGt1CBchvVFfvTvgUFyBkn9wW1fQbGlgGao" alt=" - Title" style="color: #000; text-decoration: none"><strong>Shop Kitchen</strong></a> </h2>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </th>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table bgcolor="#ededed" role="presentation" align="center" style="width: 640px; margin: 0 auto" class="w100pc">
+      <tr>
+        <td>
+          <table role="presentation" style="width: 100%">
+            <tr>
+              <td style="padding: 30px 30px 10px">
+                <table role="presentation" style="width: 100%">
+                  <tr>
+                    <th style="width: 190px" class="w100pc block">
+                      <table role="presentation" style="width: 100%">
+                        <tr>
+                          <td style="margin: 0 10px 10px 0; font: 14px/2 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 28px; color: #000; text-align: center"> <a href="https://cdn.myclang.com/1/4/1828/1/XPBLm_BylYgH9QMhL5ANNrrbIl79xwJ9kb3nZBxTQOA" style="color: #000;"> Winkels </a> </td>
+                        </tr>
+                      </table>
+                    </th>
+                    <th style="width: 190px" class="w100pc block">
+                      <table role="presentation" style="width: 100%">
+                        <tr>
+                          <td style="margin: 0 10px 10px 0; font: 14px/2 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 28px; color: #000; text-align: center"> <a href="https://cdn.myclang.com/1/4/1828/1/7r0iHHSiiqgxoaFpSvWNMftishlx3U5Drh5te1-UoTE" style="color: #000;">Mijn Zeeman</a> </td>
+                        </tr>
+                      </table>
+                    </th>
+                    <th style="width: 190px" class="w100pc block">
+                      <table role="presentation" style="width: 100%">
+                        <tr>
+                          <td style="margin: 0 10px 10px 0; font: 14px/2 'Gyre','Helvetica Neue',Helvetica,Arial,sans-serif; mso-line-height-alt: 28px; color: #000; text-align: center"> <a href="https://cdn.myclang.com/2/4/1828/1/LRAz6VJ7wSWLpakx4gvaVxbZRD4f6-HNwLKBcUMuVHA" title="Afmelden" target="_blank" style="color: #000">Afmelden</a> </td>
+                        </tr>
+                      </table>
+                    </th>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table role="presentation" align="center" style="width: 100%; margin: 0 auto" class="w100pc">
+            <tr>
+              <td style="padding: 10px 30px" class="pr10 pl20">
+                <table align="center" role="presentation" style="width:400px; margin: 0 auto" class="w100pc">
+                  <tr>
+                    <td style="padding: 0 20px" class="pr10 pl10"> <a href="https://cdn.myclang.com/1/4/1828/1/WIlUtxz1dfu3wA8TKCvRzSlSceLak3nTOk_0MaRqvno" alt=" - Instagram"> <img src="https://cdn.myclang.com/public/zeeman/071d47effe7ca986909a1abb28ae51e8/ig-100_2.png" alt="IG" width="40" style="width: 40px; text-align: center" class="height-auto"> </a> </td>
+                    <td style="padding: 0 20px;" class="pr10 pl10"> <a href="https://cdn.myclang.com/1/4/1828/1/htcDmhcU69wCn2xfEslH0AmBFUOPhjzuWz7KQr3n-8s" alt=" - Facebook"> <img src="https://cdn.myclang.com/public/zeeman/071d47effe7ca986909a1abb28ae51e8/fb-100_2.png" alt="FB" width="40" style="width: 40px;text-align: center" class="height-auto"> </a> </td>
+                    <td style="padding: 0 20px;" class="pr10 pl10"> <a href="https://cdn.myclang.com/1/4/1828/1/MHlVfrAZS__ULTNdi4XVHmoj6dQssPOPAgyHFFlkDoc" alt=" - Pinterest"> <img src="https://cdn.myclang.com/public/zeeman/071d47effe7ca986909a1abb28ae51e8/pi-100_2.png" alt="PI" width="40" style="width: 40px;text-align: center" class="height-auto"> </a> </td>
+                    <td style="padding: 0 20px;" class="pr10 pl10"> <a href="https://cdn.myclang.com/1/4/1828/1/8txrb6qOUXOIQHcfeYRpUMeM9c02RFQkZh_Oz0v94KM" alt=" - Youtube"> <img src="https://cdn.myclang.com/public/zeeman/071d47effe7ca986909a1abb28ae51e8/yt-100_2.png" alt="YT" width="40" style="width: 40px;text-align: center" class="height-auto"> </a> </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table role="presentation" style="width: 100%; margin: 0 auto;" class="w100pc">
+            <tr>
+              <td style="padding: 10px 30px 30px">
+                <table align="center" role="presentation" style="width: 450px; margin: 0 auto;" class="w100pc">
+                  <tr>
+                    <td> </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </center>
+</div>
+</body>
+</html>
